@@ -1,0 +1,56 @@
+
+.navigation{ 
+  padding:150px;
+  width: 100%;
+  padding:10px;
+  background-color: lightblue;
+}
+.navigation ul{
+  display: inline-block;
+  list-style-type:none;
+}
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+.navigation ul li{
+  display:inline-block;
+}
+.button{
+  background-color: white;
+  border: 1px solid rgb(131, 155, 153);
+  text-align: center;
+  font-size: 16px;
+  padding: 15px 32px;
+  overflow: hidden;
+  display: inline-block;
+  height: 100%;
+  border-radius: 0;
+}
+.button:hover{
+  background-color: rgba(107, 153, 223, 0.884);
+  cursor: pointer;
+}
+
+* {    
+  margin: 0 ;
+  padding: 0 ;
+}
+
+.Account{
+  margin:25px;
+  padding:250px 100px;
+  display: inline-block;
+  background-color: lightskyblue;
+}
+
+.Information{
+  margin:25px;
+  padding:250px 100px;
+  float:right;
+  background-color: rgb(180, 226, 255);
+}
+
+.TextSend{
+  overflow-y: scroll; height:400px;
+}
